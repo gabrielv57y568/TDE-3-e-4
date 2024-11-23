@@ -1,0 +1,356 @@
+/* Gabriel e Renan*/
+
+body{
+    background-size: cover;
+    font-family: "inter"
+}
+
+.header { 
+    background-color: #F1C232;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+
+
+.header__container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.header__title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #5E001F;
+}
+
+.header__subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    color: #5E001F;
+}
+
+.header__menu{
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu_link{
+    text-decoration: none;
+    color: #001f5b;
+    font-weight: 500;
+}
+
+.section--intro{
+    background-image: url(img/images-removebg-preview\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    height: 210px;
+    justify-content: center;
+    background-color: #5E001F;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+
+.intro__banner{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__title{
+    font-size: 40px;
+    font-weight: 500;
+    color: #F1C232;
+}
+
+.intro__text{
+    font-size: 24px;
+    color: #F1C232;
+}
+
+.intro__banner a{
+    text-decoration: none;
+    font-weight: 400;
+    color: #F1C232;
+}
+
+.section__title{
+    color: #5E001F;
+    font-size: 40px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.section--about{
+    margin: 20px;
+    background-color: #1A472A;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.section--about h2{
+    color: #fff;
+}
+
+.section__text{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px ;
+}
+
+.section__content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about__grid{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about__item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.about__subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.section--gallery{
+    background-color: #F1C232;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.gallery__grid{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery__item{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gallery__img{
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.gallery__caption{
+    color:#5E001F;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.gallery__item button{
+    background-color: #5E001F;
+    padding: 10px;
+    border-radius: 10px;
+    color: #F1C232;
+}
+
+
+
+.section--services{
+    background-color: #0E1A40;
+    margin: 20px;
+    border-radius: 5px;
+}
+.section--services h2{
+    color:  #946B2D;
+}
+
+.section__content p{
+    color:#fff;
+    font-weight: 500;
+}
+
+.services__list{
+    display:flex ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.service__item{
+    width:450px;
+}
+
+.service__title{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px;
+    color: #946B2D;
+    text-transform: uppercase;
+}
+
+.section--news{
+    margin:  20px;
+    background-color: #FFDB00;
+    padding: 10px;
+}
+.section--news h2{
+    color: #60605C;
+}
+.news__grid{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.news__item{
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    background-color: #60605C;
+}
+
+.news__img{
+    border-radius: 20px;
+    margin-bottom: 10px;
+}   
+
+.news__content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.news__title{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.news__date{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cnews__summary{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.btn-more{
+    width: 150px;
+    border-radius:5px ;
+    padding: 5px;
+    background-color: #FFDB00;
+    color: #60605C;
+    font-weight: 700;
+}
+
+.section--contact{
+    background-image: url(img/harry_potter_badges_by_maxdemon6_ddsahsx-414w-2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+}
+
+.contact__form{
+    padding: 50px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+}
+
+.contact__form button{
+    width: 300px;
+    margin-left: 150px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F1C232;
+    background-color: #5E001F;
+    border-radius: 10px;
+    border: none;
+}
+
+.form__group{
+    display: flex;
+}
+
+.form__label{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+    padding: 10px;
+    border: #5E001F solid;
+    background-color: #5E001F;
+    height: 25px;
+    width: 120px;
+    border-radius: 10px;
+
+}
+.form__label{
+    color:#F1C232;
+}
+
+.form__input{
+    width: 380px;
+    height: 30px;
+    border-radius: 10px;   
+    border: #5E001F solid;  
+    background-color: #5E001F;   
+}
+
+
+.footer{
+    background-color:#5E001F;
+}
+
+.footer__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.footer__text{
+    font-size: 24px;
+    color: #F1C232;
+}
+
+.footer__social{
+    display: flex;
+    gap: 50px;
+}
+
+
+.social__link{
+    text-decoration: none;
+    color:#F1C232;
+    font-size: 16px;
+}

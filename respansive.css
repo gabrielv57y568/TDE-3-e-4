@@ -1,0 +1,152 @@
+/* 2xl */
+@media (max-width: 1536px) {
+    
+}
+
+/* xl */
+@media (max-width: 1280px) {
+   
+}
+
+/* lg */
+@media (max-width: 1024px) {
+
+   .gallery__grid{
+    flex-wrap: wrap;
+    
+   }
+
+   .news__grid{
+    flex-wrap: wrap;
+    gap: 10px;
+   }
+}
+/* md */
+@media (max-width: 768px) {
+    @media screen and (max-width: 768px) {
+        .header__container {
+            flex-direction: column;
+            padding: 5px;
+        }
+    
+        .header__title {
+            font-size: 36px;
+        }
+    
+        .header__subtitle {
+            font-size: 18px;
+        }
+    
+        .header__menu {
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+    
+        .section--intro {
+            height: auto;
+            background-position: center;
+            background-image: none;
+        }
+    
+        .intro__banner {
+            width: 100%;
+            padding: 10px;
+            gap: 5px;
+        }
+    
+        .intro__title {
+            font-size: 28px;
+        }
+    
+        .intro__text {
+            font-size: 16px;
+        }
+    
+        .section__title {
+            font-size: 28px;
+        }
+    
+        .section--about {
+            padding: 5px;
+        }
+    
+        .about__grid {
+            flex-direction: column;
+            gap: 20px;
+        }
+    
+        .service__item {
+            width: 100%;
+        }
+    
+        .services__list {
+            margin: 10px;
+        }
+    
+        .gallery__grid {
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    
+        .news__grid {
+            gap: 20px;
+        }
+    
+        .news__item {
+            
+            padding: 10px;
+        }
+    
+        .footer__content {
+            gap: 20px;
+            padding: 20px;
+        }
+    
+        .footer__text {
+            font-size: 16px;
+            text-align: center;
+        }
+    
+        .footer__social {
+            gap: 20px;
+        }
+    }
+    
+}
+   
+/* sm */
+@media (max-width: 640px) {
+    
+}
+
+/* xs */
+@media (max-width: 475px) {
+    .header__title{
+        font-size: 30px;
+    }
+
+    .header__subtitle {
+        font-size: 16px;
+    }
+
+    .section__text{
+        font-size: 20px;
+    }
+
+    .about__subtitle{
+        font-size: 20px;
+    }
+
+    .contact__form button{
+        width: 100px;
+    }
+
+    .form__group{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .form__input{
+        width: 100px;
+    }
+}
